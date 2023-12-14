@@ -3,7 +3,7 @@
 A Jupyter notebook environment built for attacking crypto CTF challenges, with custom theming matching [CryptoHack](https://cryptohack.org).
 
 It comes with the following installed and integrated:
- - Sage 9 (based on Python3)
+ - Sage 10 (based on Python3)
  - Pwntools
  - PyCryptodome
  - z3 Prover
@@ -43,6 +43,9 @@ docker run --name CTF-Crypto --restart always -p 8888:8888 -v .:/home/sage/ctf-c
 
 ![Alt text](image-7.png)
 
+## Bad
+- Can't use with libs using image, screenshot like pyzbar, PIL,...
+ 
 Refer:
 - https://github.com/cryptohack/cryptohack-docker
 - https://github.com/vishiswoz/cryptohack-docker
