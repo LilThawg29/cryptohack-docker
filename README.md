@@ -41,6 +41,7 @@ docker run --name CTF-Crypto --restart always -p 8888:8888 -v .:/home/sage/ctf-c
 
 ![Alt text](image-6.png)
 
+~/sage/local/var/lib/sage/venv-python3.11.1/bin/python3.11
 ![Alt text](image-7.png)
 
 ## Bad
